@@ -1,0 +1,29 @@
+/* BEGIN: Link about.html */
+a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* BEGIN: Align text beautifully */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* BEGIN: Nice fonts */
+h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* BEGIN: Add background image */
+body {
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.YF4IOuXZvOqAkN-8oltAUwHaFj&pid=Api&P=0&h=180");
+    background-size: cover;
+}
